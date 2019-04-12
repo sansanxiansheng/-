@@ -1,0 +1,19 @@
+
+public class skii {
+public  static String skill(int a,int b) {
+	String[] skill = {
+  //这里放入你的技能库，技能的概率可以通过调整技能的相对数量进行决定
+  };
+	if(skill[a].toString()==skill[b].toString()) {b=b+1;}
+	String ss1 = "②"+skill[a];
+	String ss2 = "③"+skill[b];
+	return ss1;
+ }
+ public static void main(String[] args) {
+	 int h = (int) (1+Math.random()*(skill.lenth-0+1));
+	 int f = (int) (1+Math.random()*(skill.lenth-0+1));
+	 int g = (int) (1+Math.random()*(5-1+1));
+	 String ss = skill(h,f);
+	System.out.println(g);
+}
+}
